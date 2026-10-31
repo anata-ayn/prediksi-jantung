@@ -1,0 +1,23 @@
+{
+  "model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "temperature": 0,
+  "max_tokens": 12,
+  "labels": [
+    "Sehat",
+    "Penyakit Jantung"
+  ],
+  "system_prompt": "Kamu adalah sistem klasifikasi risiko penyakit jantung berdasarkan data klinis pasien.\nData pasien: usia, jenis kelamin (M laki-laki, F perempuan), tipe nyeri dada (TA typical angina, ATA atypical angina, NAP non-anginal pain, ASY tanpa gejala), tekanan darah istirahat (mmHg), kolesterol (mg/dl), gula darah puasa > 120 mg/dl (1 ya, 0 tidak), EKG istirahat (Normal, ST, LVH), detak jantung maksimum, angina akibat olahraga (Y ya, N tidak), Oldpeak (depresi ST), dan kemiringan segmen ST (Up, Flat, Down).\nLabel:\n- Sehat: pasien tidak memiliki penyakit jantung\n- Penyakit Jantung: pasien memiliki penyakit jantung\nJawab HANYA dengan satu label: Sehat atau Penyakit Jantung.",
+  "few_shot": [],
+  "evaluasi": {
+    "accuracy": 0.837,
+    "f1_macro": 0.8297,
+    "invalid": 0,
+    "n": 184,
+    "waktu_total_detik": 518.72,
+    "waktu_per_prediksi_detik": 2.819,
+    "f1_model_library": 0.8683,
+    "nama_model_library": "Gradient Boosting",
+    "dataset": "heart.csv (bagian test)",
+    "tanggal": "2026-11-01"
+  }
+}

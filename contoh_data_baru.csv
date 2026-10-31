@@ -1,0 +1,11 @@
+id_pasien,RestingBP,Cholesterol,Age,FastingBS,MaxHR,Oldpeak,Sex,ChestPainType,RestingECG,ExerciseAngina,ST_Slope
+P001,128,0,52,0,180,3.0,M,NAP,ST,N,Up
+P002,138,220,39,0,152,0.0,F,NAP,Normal,N,Flat
+P003,132,218,60,0,140,1.5,M,ASY,ST,Y,Down
+P004,135,192,45,0,110,0.0,M,NAP,Normal,N,Up
+P005,145,0,42,0,99,0.0,M,ASY,Normal,Y,Flat
+P006,80,0,53,0,141,2.0,M,ASY,Normal,Y,Down
+P007,105,0,57,1,148,0.3,M,NAP,Normal,N,Flat
+P008,98,220,34,0,150,0.0,M,ATA,Normal,N,Up
+P009,110,265,71,1,130,0.0,F,NAP,LVH,N,Up
+P010,100,0,43,1,122,1.5,M,ASY,Normal,N,Down

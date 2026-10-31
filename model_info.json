@@ -1,0 +1,89 @@
+{
+  "nama_model": "Gradient Boosting",
+  "target": "HeartDisease",
+  "kelas": [
+    "Sehat",
+    "Penyakit Jantung"
+  ],
+  "fitur_nol_kosong": [
+    "RestingBP",
+    "Cholesterol"
+  ],
+  "fitur_numerik": [
+    "Age",
+    "FastingBS",
+    "MaxHR",
+    "Oldpeak"
+  ],
+  "fitur_kategori": [
+    "Sex",
+    "ChestPainType",
+    "RestingECG",
+    "ExerciseAngina",
+    "ST_Slope"
+  ],
+  "nilai_kategori": {
+    "Sex": [
+      "F",
+      "M"
+    ],
+    "ChestPainType": [
+      "ASY",
+      "ATA",
+      "NAP",
+      "TA"
+    ],
+    "RestingECG": [
+      "LVH",
+      "Normal",
+      "ST"
+    ],
+    "ExerciseAngina": [
+      "N",
+      "Y"
+    ],
+    "ST_Slope": [
+      "Down",
+      "Flat",
+      "Up"
+    ]
+  },
+  "rentang_fitur": {
+    "RestingBP": [
+      92.0,
+      200.0
+    ],
+    "Cholesterol": [
+      85.0,
+      603.0
+    ],
+    "Age": [
+      29.0,
+      77.0
+    ],
+    "FastingBS": [
+      0.0,
+      1.0
+    ],
+    "MaxHR": [
+      60.0,
+      202.0
+    ],
+    "Oldpeak": [
+      -2.6,
+      5.6
+    ]
+  },
+  "metrik": {
+    "accuracy": 0.8696,
+    "f1_macro": 0.8683,
+    "f1_baseline": 0.3566,
+    "n_test": 184,
+    "n_train": 734
+  },
+  "versi": {
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.6",
+    "python": "3.13.16"
+  }
+}
